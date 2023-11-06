@@ -4,14 +4,15 @@
 
 ---
 
-## My goals are:
+## My goals are
 
 * Find a job at high-tech company as a front-end developer;
 * Study new things in this sphere;
 * Connect with interesting people.
 
 ---
-## _**Skills**_:
+
+## _**Skills**_
 
 1. HTML5;
 2. CSS3;
@@ -22,17 +23,16 @@
 
 ---
 
-## _**Contact**_:
+## _**Contact**_
 
 **Location:** Haifa, Israel.
 [__Github__](https://github.com/nikitabalomozhnov);
 [**Telegram__](https://t.me/nikblm);
 **Gmail:** <nexloder05@gmail.com>.
 
-
 ---
 
-## _**Languages**_:
+## _**Languages**_
 
 * English -- B2.
 * Russian -- Native.
