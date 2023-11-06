@@ -25,10 +25,10 @@
 
 ## _**Contact**_
 
-**Location:** Haifa, Israel.
-[__Github__](https://github.com/nikitabalomozhnov);
-[__Telegram__](https://t.me/nikblm);
-**Gmail:** <nexloder05@gmail.com>.
+**Location:** Haifa, Israel<br>
+**Email:** nexloder05@gmail.com<br>
+**Telegram:** [@nikblm](https://t.me/nikblm)<br>
+**RS Discord:** Nikita (@nikitabalomozhnov)
 
 ---
 
