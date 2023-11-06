@@ -1,1 +1,1 @@
-# rsschool-cv
+[My CV](https://nikitabalomozhnov.github.io/rsschool-cv/cv)
