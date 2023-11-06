@@ -1,1 +1,1 @@
-https://nikitabalomozhnov.github.io/rsschool-cv/cv.md
+https://nikitabalomozhnov.github.io/rsschool-cv/cv/
