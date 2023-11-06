@@ -27,7 +27,7 @@
 
 **Location:** Haifa, Israel.
 [__Github__](https://github.com/nikitabalomozhnov);
-[**Telegram__](https://t.me/nikblm);
+[__Telegram__](https://t.me/nikblm);
 **Gmail:** <nexloder05@gmail.com>.
 
 ---
