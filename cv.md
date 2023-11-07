@@ -1,6 +1,15 @@
-# Hi! My name is __Nikita Balomozhnov__
+# __Nikita Balomozhnov__
 
 ![Photo of mine](./images/me.jpg)
+
+---
+
+## _**Contact**_
+
+**Location:** Haifa, Israel<br>
+**Email:** <nexloder05@gmail.com><br>
+**Telegram:** [@nikblm](https://t.me/nikblm)<br>
+**RS Discord:** Nikita (@nikitabalomozhnov)
 
 ---
 
@@ -20,15 +29,6 @@
 4. Java core;
 5. Basic knowledge of database;
 6. Git and github.
-
----
-
-## _**Contact**_
-
-**Location:** Haifa, Israel<br>
-**Email:** nexloder05@gmail.com<br>
-**Telegram:** [@nikblm](https://t.me/nikblm)<br>
-**RS Discord:** Nikita (@nikitabalomozhnov)
 
 ---
 
