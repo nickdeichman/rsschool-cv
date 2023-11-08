@@ -1,0 +1,407 @@
+:root {
+  --raisin-black: #2d2327ff;
+  --earth-yellow: #eab464ff;
+  --chamoisee: #a7754dff;
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1500px;
+	min-width: 390px;
+  margin: 0 auto;
+  background: var(--raisin-black);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+	gap: 30px;
+  grid-template-rows: 1fr;
+  padding: 45px 15px 66px 25px;
+}
+
+.left {
+  background: var(--earth-yellow);
+  color: var(--raisin-black);
+  width: 515px;
+  border-radius: 16px;
+}
+
+.left .top {
+  padding: 16px 64px;
+  border-bottom: 5px solid var(--raisin-black);
+}
+
+.left img {
+  width: 377px;
+  height: 377px;
+}
+
+.left h1 {
+  position: relative;
+  font-size: 64px;
+  font-style: italic;
+  padding-bottom: 45px;
+}
+
+.left h1::after {
+  margin: 15px 0;
+  position: absolute;
+  content: "";
+  width: 452px;
+  height: 3px;
+  background: var(--raisin-black);
+}
+
+.left .position {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: normal;
+  width: 110%;
+}
+
+.bottom {
+  padding: 67px 19px 31px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom .contact {
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.bottom i {
+  color: var(--raisin-black);
+  font-size: 32px;
+  display: inline;
+}
+
+.bottom i::before,
+.bottom i::after {
+  display: inline-block;
+  text-align: center;
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+}
+
+.bottom > * {
+  color: var(--raisin-black);
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  position: relative;
+}
+
+.bottom > ul > li > a {
+  color: var(--raisin-black);
+  text-decoration: none;
+  text-shadow: none;
+  transition: text-shadow 1s ease;
+}
+
+.bottom ul {
+  list-style: none;
+}
+
+.bottom a:hover {
+  font-weight: 700;
+  text-shadow: 0 0 5px #2d232755;
+}
+
+.discord::before {
+  position: absolute;
+  content: url(images/discord.svg);
+  left: -40px;
+  width: auto;
+  height: auto;
+}
+
+.right {
+  color: var(--earth-yellow);
+  display: flex;
+  flex-direction: column;
+}
+
+.right > * > h2 {
+  position: relative;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+  padding-bottom: 25px;
+}
+
+.right > * > h2::after {
+  position: absolute;
+  content: "";
+  width: 781px;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: rgba(234, 180, 100, 0.8);
+  margin: 15px 0;
+}
+
+.about {
+  padding-bottom: 70px;
+}
+
+.about p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 66px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skills ul li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 30px;
+}
+
+.bars {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.skills i {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.html {
+  background: url(images/html.svg);
+}
+
+.scale {
+  background-color: rgba(234, 180, 100, 0.8);
+  width: 366px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+
+.scale[value] {
+  appearance: none;
+  border: none;
+  background-color: var(--chamoisee);
+}
+
+.scale[value]::-webkit-progress-bar {
+  background-color: var(--chamoisee);
+}
+
+.scale[value]::-webkit-progress-value {
+  background-color: var(--earth-yellow);
+}
+
+.css {
+  background: url(images/css.svg);
+}
+
+.git {
+  background: url(images/git.svg);
+  background-size: contain;
+}
+
+.js {
+  background: url(images/js.svg);
+}
+
+.figma {
+  background: url(images/figma.svg);
+}
+
+.skills span {
+  display: inline-block;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 52px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+
+
+@media screen and (max-width: 565px) {
+  body {
+    overflow-x: hidden;
+		margin: 0;
+  }
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .left {
+    margin: 0 auto 30px;
+    width: 350px;
+  }
+
+  .left .top {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left .bottom * {
+    font-size: 22px;
+  }
+
+	.left .bottom ul {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+  .bottom i::before,
+  .bottom i::after {
+		width: 40px;
+		height: auto;
+    margin-right: 5px;
+  }
+  .left img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  .left h1 {
+    font-size: 30px;
+    align-self: center;
+    padding-bottom: 15px;
+  }
+  .left h1::after {
+    display: none;
+  }
+
+  .left .position {
+		border-top: 2px solid var(--raisin-black);
+		padding-top: 10px;
+		font-size: 23px;
+		width: auto;
+  }
+
+  .bottom {
+    text-align: left;
+		justify-content: flex-start;
+		align-items: center;
+    padding: 20px 5px 10px;
+  }
+
+  .bottom .contact {
+    font-size: 30px;
+  }
+
+  .right > * > h2::after {
+    position: absolute;
+    content: "";
+    width: 350px;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    background: rgba(234, 180, 100, 0.8);
+    margin: 15px 0;
+  }
+
+  .right {
+    padding: 10px;
+  }
+
+  .about {
+    padding-bottom: 45px;
+  }
+
+  .about p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .skills {
+    padding-bottom: 33px;
+  }
+
+	.skills i {
+		width: 24px;
+		height: 24px;
+	}
+
+	.html, .css, .js, .figma, .git {
+		background-position: center;
+		background-size: contain;
+	}
+
+  .skills span {
+    font-size: 24px;
+		margin: 0;
+  }
+
+	.bars {
+		padding-top: 5px;
+		gap: 30px;
+	}
+
+  .scale {
+    width: 150px;
+  }
+
+  .languages {
+    font-size: 24px;
+  }
+}
